@@ -1,0 +1,168 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="spp.app.asehackathon.DealInfoActivity"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/storeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name :" 
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/storeNameValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+         />
+    
+    <TextView
+        android:id="@+id/dealTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deal Title :" 
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/dealTitleValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+    
+    <TextView
+        android:id="@+id/dealInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deal Info :"
+        android:textStyle="bold"  />
+    
+    <TextView
+        android:id="@+id/dealInfoValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+    
+    <TextView
+        android:id="@+id/totalDeals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Deals In Store :"
+        android:textStyle="bold"  />
+    
+    <TextView
+        android:id="@+id/totalDealsValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    
+     <TextView
+        android:id="@+id/expiration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Expiration :" 
+        android:textStyle="bold" />
+     
+      <TextView
+        android:id="@+id/expirationValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    
+    <TextView
+        android:id="@+id/storeAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address :" 
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/storeAddressValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+    
+    <TextView
+        android:id="@+id/storePhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone :" 
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/storePhoneValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+    <TextView
+        android:id="@+id/disclaimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Disclaimer :" 
+        android:textStyle="bold"
+        />
+    
+    <TextView
+        android:id="@+id/disclaimerValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+    <TextView
+        android:id="@+id/Url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="URL :"
+        android:textStyle="bold"  />
+    
+    <TextView
+        android:id="@+id/UrlValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    
+    <TextView
+        android:id="@+id/StoreUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Store Url :"
+        android:textStyle="bold"  />
+    
+    <TextView
+        android:id="@+id/StoreUrlValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/showStoreDir"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Show directions" />
+
+        <Button
+            android:id="@+id/saveToWallet"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Save to Wallet" />
+    </LinearLayout>
+    
+
+</LinearLayout>
+</ScrollView>
