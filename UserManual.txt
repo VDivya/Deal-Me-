@@ -1,0 +1,17 @@
+Hi welcome to the project DEAL ME!!
+
+This application is designed for users who like to browse local deals and can also get directions for those particular places.
+
+.The user can register into the application and login to avail the complete features of application.
+.The user is prompted to choose some categories of his choice of places in which he/she might be interested in.
+.The corresponding choice related places are plotted in the map and shown to the user which are near the user.
+.The user can check on these places with the markers available on the map.
+.The user is also given a privilege to record the location of his choice in which he wants to find places and deals.
+.The user can click the button to get the deals near by after choosing his categories of deals he/she wants.
+.The user gets all the deals, coupons available near their place and can save these coupons to their wallets.
+.This wallet can be used when he is in the place acquiring the deal.
+.The user can also get navigation by getting the directions to the location he wishes to visit from his current position.
+.The user can also save places for his future visit purposes in wishlist options.
+.There is also a QR scanning option for the user where he can scan his coupons available with him and save them to the wallet. 
+
+This is how the application handles the users and their choices of interests in places which makes the application more interesting.
